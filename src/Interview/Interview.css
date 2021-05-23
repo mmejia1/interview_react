@@ -1,11 +1,21 @@
+/* * {
+  display:flex
+} */
+
 .interview-container {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+
 }
 
 .box {
   width: 400px;
   /* margin: 10px 0 0 10px; */
   background-color: lightgray;
+
+
 }
 
 .box-horizontal {
@@ -20,6 +30,13 @@
 }
 
 .header {
+  background-color: green;
+  border-bottom: 1px solid black;
+  color: white;
+  text-align: center;
+  /* margin-bottom: 5px; */
+}
+.secondHeader {
   background-color: green;
   border-bottom: 1px solid black;
   color: white;
